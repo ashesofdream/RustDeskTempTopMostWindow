@@ -81,7 +81,7 @@ int write_imgdata(const std::vector<char>& data, const char* outfile)
 
 int load_img(const char* infile)
 {
-    const char* outfile = "../WindowInjection/img.cpp";
+    const char* outfile = "../../WindowInjection/img.cpp";
 
     std::ifstream ifs(infile, std::ios::binary);
     if (!ifs.is_open())
